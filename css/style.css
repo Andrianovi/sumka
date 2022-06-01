@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+Body{
+	background: url('../img/Hellsing_19.jpg') 50%/contain fixed no-repeat, #000;
+}
+h1{
+
+	font-size: 40px;
+	font-weight: 900;
+	color: #335544;
+	text-align: center;
+	letter-spacing: 2px;
+	font-style: italic;
+	background-color: rgb(64, 224, 208, 0.5)
+}
+li{
+	font-size: 30px;
+	font-weight: 700;
+	color: rgb(53, 161, 57);
+			text-shadow: 0 0 0 px white, 0 0 0 4px gray;
+}
+h2{
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+	background-color: rgb(64, 224, 208, 0.7)
+}
+ol{
+	font-size: 40px;
+	font-weight: 900;
+	color: rgb(240, 129, 26);
+	padding: 0px 0 0 80px;
+	text-align: left;
+	letter-spacing: 2px;
+	font-style: normal;
+	width: 100%;
+}
+div{
+	width: 100%;
+
+}
+.kartinka {
+	width: 50%;
+	opacity: 0;
+}
+.kartin {
+	width: 100%;
+
+}
+.planka {
+	height: 200px;
+	background-image: url('../img/764510.jpg'), url('../img/389436.jpg'), url('../img/animu_ru-xenosaga-(1280x1024)-wallpaper-006.jpg')  ;
+	background-repeat: no-repeat;
+	background-position: 0 50%, 50%, 100% 50%;
+	background-size: 33% auto;
+
+
+
+
+
+
+
+}
+.planka1 {
+	height: 200px;
+	background-image: url('../img/YLaputa_Castle_in_the_Sky_01.jpg'), url('../img/Yokohama_Kaidashi_Kikou_02.jpg'), url('../img/yil_794xN.1478278986_5puy.jpg')  ;
+	background-repeat: no-repeat;
+	background-position: 0 50%, 50%, 100% 50%;
+	background-size: 33% auto;
+}
